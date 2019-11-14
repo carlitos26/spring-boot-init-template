@@ -38,3 +38,13 @@ export PROJECT_DB_NAME=assessments
 export PROJECT_DB_USERNAME=tech
 export PROJECT_DB_PASSWORD=d0nt4get
 ```
+
+# Use it
+Clone the repo into a desiredDestinationDirectory
+```aidl
+git clone <Repo> <desiredDestinationDirectory>
+```
+remove the current remote
+```aidl
+git remote rm origin
+```
