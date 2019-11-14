@@ -13,23 +13,23 @@ mvn spring-boot:run
 
 ## Tests
 #### Run all the unit tests:
-> ```$ mvn test```
+> ```mvn test```
 #### Test one class
-> ```$ mvn test -Dtest=<ClassTestName>```
+> ```mvn test -Dtest=<ClassTestName>```
 #### Test one method
-> ```$ mvn test -Dtest=<ClassTestName>#<testMethodName>```
+> ```mvn test -Dtest=<ClassTestName>#<testMethodName>```
 #### Test two methods with the plus sign (+)
-> ```$ mvn test -Dtest=<ClassTestName>#<testOneMethodName>+<testTwoMethodName>```
+> ```mvn test -Dtest=<ClassTestName>#<testOneMethodName>+<testTwoMethodName>```
 #### Test multiple items comma separated and with a wildcard (*)
-> ```$ mvn test -Dtest=<ClassTestName>,SecondTest*```
+> ```mvn test -Dtest=<ClassTestName>,SecondTest*```
 #### Test by Package with a wildcard (*)
-> ```$ mvn test -Dtest=com.mycompany.*.*Package```
+> ```mvn test -Dtest=com.mycompany.*.*Package```
 #### Exclude one test class, by using the explanation mark (!)
-> ```$ mvn test -Dtest=!<ClassTestName>```
+> ```mvn test -Dtest=!<ClassTestName>```
 #### Exclude one test method 
-> ```$ mvn verify -Dtest=!<ClassTestName>#<testOneMethodName>```
+> ```mvn verify -Dtest=!<ClassTestName>#<testOneMethodName>```
 #### Exclude two test methods
-> ```$ mvn verify -Dtest=!<ClassTestName>#<testOneMethodName>+<testTwoMethodName>```
+> ```mvn verify -Dtest=!<ClassTestName>#<testOneMethodName>+<testTwoMethodName>```
 
 # Environment
 ```$xslt
