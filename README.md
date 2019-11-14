@@ -11,6 +11,12 @@ from the root dir then  start the app locally with
 mvn spring-boot:run
 ```
 
+# Documentation API
+After application run
+```aidl
+http://localhost:8081/swagger
+```
+
 ## Tests
 #### Run all the unit tests:
 > ```mvn test```
